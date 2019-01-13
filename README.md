@@ -1,17 +1,4 @@
 # Introduction to machine learning with scikit-learn
-
-This video series will teach you how to solve machine learning problems using Python's popular scikit-learn library. It was [featured on Kaggle's blog](http://blog.kaggle.com/author/kevin-markham/) in 2015.
-
-There are **9 video tutorials** totaling 4 hours, each with a corresponding **Jupyter notebook**. The notebook contains everything you see in the video: code, output, images, and comments.
-
-**Note:** The notebooks in this repository have been updated to use Python 3.6 and scikit-learn 0.19.1. The original notebooks (shown in the video) used Python 2.7 and scikit-learn 0.16, and can be downloaded from the [archive branch](https://github.com/justmarkham/scikit-learn-videos/tree/archive). You can read about how I updated the code in this [blog post](https://www.dataschool.io/how-to-update-your-scikit-learn-code-for-2018/).
-
-You can [watch the entire series](https://www.youtube.com/playlist?list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A) on YouTube, and [view all of the notebooks](http://nbviewer.jupyter.org/github/justmarkham/scikit-learn-videos/tree/master/) using nbviewer.
-
-[![Watch the first tutorial video](images/youtube.png)](https://www.youtube.com/watch?v=elojMnjn4kk&list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A&index=1 "Watch the first tutorial video")
-
-Once you complete this video series, I recommend enrolling in my online course, [Machine Learning with Text in Python](http://www.dataschool.io/learn/), to gain a deeper understanding of scikit-learn and Natural Language Processing.
-
 ## Table of Contents
 
 1. What is machine learning, and how does it work? ([video](https://www.youtube.com/watch?v=elojMnjn4kk&list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A&index=1), [notebook](01_machine_learning_intro.ipynb), [blog post](http://blog.kaggle.com/2015/04/08/new-video-series-introduction-to-machine-learning-with-scikit-learn/))
@@ -71,21 +58,3 @@ Once you complete this video series, I recommend enrolling in my online course, 
     - How can you adjust classifier performance by changing the classification threshold?
     - What is the purpose of an ROC curve?
     - How does Area Under the Curve (AUC) differ from classification accuracy?
-
-## Bonus Video
-
-At the PyCon 2016 conference, I taught a **3-hour tutorial** that builds upon this video series and focuses on **text-based data**. You can watch the [tutorial video](https://www.youtube.com/watch?v=ZiKMIuYidY0&list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A&index=10) on YouTube.
-
-Here are the topics I covered:
-
-1. Model building in scikit-learn (refresher)
-2. Representing text as numerical data
-3. Reading a text-based dataset into pandas
-4. Vectorizing our dataset
-5. Building and evaluating a model
-6. Comparing models
-7. Examining a model for further insight
-8. Practicing this workflow on another dataset
-9. Tuning the vectorizer (discussion)
-
-Visit this [GitHub repository](https://github.com/justmarkham/pycon-2016-tutorial) to access the tutorial notebooks and many other recommended resources.
